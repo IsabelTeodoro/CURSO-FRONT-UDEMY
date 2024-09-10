@@ -5,7 +5,17 @@
 4- Tag p paragrafo , começa uma nova linha/
 5- Tags sem conteudo geralmente usadas para quebra de linha como o br e o hr, tambem sao sem fechamento a maioria das vezes/
 6- Atributos adicionam funcionalidades as tags, a tag a , adiciona uma nova pagina ou site mas para adicionar o endereço URL usamos o (a href="link">nome</a), quando o usuario clica é redirecionado/
-TESTE PARA ALTERAÇÃO PELO TERMINAL-->
+TESTE PARA ALTERAÇÃO PELO TERMINAL
+git add .
+git commit -m "teste"
+git push origin
+7-Abrir link em nova aba: target="_blank"
+8-imagens no HtMl: <img src="img/Captura de tela 2024-05-22 155835.png"/>
+9-Atributo alt: texto que descreve a imagem, todas devem ter para que as pessoas possam ler
+10-lista nao ordenadas: tag ul, e cada item é separado pela tag li. 
+11-Listas ordenadas : procedimento ou passo a ser seguido, tag ol , searados pelas li.
+12-Tabelas  para exibir dados que podem ser categorizados em colunas, usamos a tag table para criar a tabela , um cabeçalho e um corpo cada linha é criada em uma tag tr e dos dados ficam em td, no cabeçalho usamos a tag th.
+13-tag div- muito usada: divisao ou secao no site, separa-los   -->
 
 <!DOCTYPE html>
 <html>
@@ -14,7 +24,7 @@ TESTE PARA ALTERAÇÃO PELO TERMINAL-->
     <title> Html fundamentos</title>
 </head>
 
-<body style="padding-bottom: 500px">
+<body style="padding-bottom: 500px"> <!--espaçamento-->
     <h1>Este é um titulo</h1>
     <h1>Um novo titulo</h1>
 
@@ -28,6 +38,55 @@ TESTE PARA ALTERAÇÃO PELO TERMINAL-->
     <p>distancia 3</p>
     <!-- ATRIBUTOS-->
     <a href="https://www.google.com">Google</a>
+  <br/>
+   <a href="https://www.google.com" target="_blank">Google em nova aba</a>
+  <br/>
+  <img src="Captura de tela 2024-07-14 210505.png"/>
+ 
+  <img src="Captura de tela 2024-08-24 224352.png" alt="arvore com raiz"/>
+  
+  <ul>
+    <li>Carros</li>
+    <li>navios</li>
+    <li>submarinos</li>
+    <li>avioes</li>
+    </ul>
+  
+  <ol>
+    <li>lavar o carro</li>
+    <li>mercado</li>
+    <li>estudar</li>
+    <li>jantar</li>
+  </ol>
+  
+  <table>
+  <tr>
+    <th>ID:</th>
+    <th>Nome:</th>
+    <th>Profissão:</th>
+    </tr>
+    <tr>
+    <td>1</td>
+    <td>isabel</td>
+    <td>programadora</td>
+    </tr>
+    <tr>
+     <td>2</td>
+    <td>alexia</td>
+    <td>engenheira</td>
+    </tr>
+  </table>
+  
+  <div>
+    <h2>Titulo da secao</h2>
+    <p>Descriçao da secao, um texto relacionado a este assunto</p>
+    <a href="#">saber mais</a>
+  </div>
+  <div>
+    <h2>Sobre</h2>
+    <p>Descriçao da secao, um texto relacionado a este assunto</p>
+  </div>
+  
+  
 </body>
-
 </html>
